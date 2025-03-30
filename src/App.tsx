@@ -43,7 +43,7 @@ export default function ModernUI() {
             I am
           </motion.span>
         </div>
-        <div className="text-6xl md:text-8xl font-bold flex overflow-hidden">
+        <div className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold flex overflow-hidden">
           {characters.map((char, index) => (
             <motion.span
               key={index}
