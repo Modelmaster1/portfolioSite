@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.accentColor {
+    color: #2b944c;
+}
+
+.mutedColorBg {
+    background-color: #03250e;
+} 

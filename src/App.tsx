@@ -31,7 +31,7 @@ export default function ModernUI() {
   const characters = Array.from(text);
 
   return (
-    <div className="relative h-screen w-screen bg-black text-white overflow-hidden flex flex-col items-center justify-center">
+    <div className="relative h-screen w-screen mutedColorBg accentColor overflow-hidden flex flex-col items-center justify-center">
 
       <motion.div
         variants={rotateVariants}
