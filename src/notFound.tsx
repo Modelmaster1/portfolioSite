@@ -1,10 +1,10 @@
 export default function NotFound() {
   return (
-    <div className="relative h-screen w-screen bg-black text-white overflow-hidden flex flex-col items-center justify-center">
+    <div className="relative  overflow-hidden flex flex-col items-center justify-center">
       {/* Hero Section with Animation */}
       <div className="flex justify-center mb-8">
         <div className="text-8xl md:text-9xl font-bold flex overflow-hidden animate-pulse">
-          <span className="text-gray-300">404</span>
+          <span className="">404</span>
         </div>
       </div>
       

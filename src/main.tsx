@@ -20,7 +20,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Navbar/>
+    <main className="mutedColorBg accentColor h-screen">
+      <Navbar />
     <RouterProvider router={router} />
+    </main>
   </StrictMode>
 );

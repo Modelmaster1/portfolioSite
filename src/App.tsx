@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import Footer from "./footer";
 
-export default function ModernUI() {
+export default function MainPage() {
   // Text animation variants
   const textVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -31,7 +32,7 @@ export default function ModernUI() {
   const characters = Array.from(text);
 
   return (
-    <div className="relative h-screen w-screen mutedColorBg accentColor overflow-hidden flex flex-col items-center justify-center">
+    <div className="relative w-full fullScreenWithNavbar overflow-hidden flex flex-col items-center justify-center">
 
       <motion.div
         variants={rotateVariants}
@@ -66,10 +67,7 @@ export default function ModernUI() {
         className="absolute inset-0 backdrop-blur-lg opacity-50"
       />
       
-      {/* Footer */}
-      <footer className="absolute bottom-0 left-0 w-full p-4 text-center text-sm">
-        &copy; 2025 Paul. No Idea how to reserve rights.
-      </footer>
+      <Footer />
     </div>
   );
 }
